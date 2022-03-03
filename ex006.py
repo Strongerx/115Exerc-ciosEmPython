@@ -1,0 +1,6 @@
+a = int(input('Digite um número: '))
+r = a ** (1/2)
+print ('O dobro dele é: \033[4;31m{}\033[m'.format(a*2))
+print ('O triplo dele é: \033[4;31m{}\033[m'.format(a*3))
+print ('A raiz quadrada é: \033[4;31m{:.2f}\033[m'.format(r))
+print ('Correto? ')
